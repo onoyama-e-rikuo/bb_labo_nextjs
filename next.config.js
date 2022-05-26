@@ -6,13 +6,13 @@ const nextConfig = {
     config.module.rules.push({
       test: /\.svg$/,
       issuer: {
-        and: [/\.(js|ts)x?$/]
+        and: [/\.(js|ts)x?$/],
       },
-      use: ['@svgr/webpack']
-    });
+      use: ['@svgr/webpack'],
+    })
 
-    return config;
-  }
+    return config
+  },
 }
 
 module.exports = nextConfig
