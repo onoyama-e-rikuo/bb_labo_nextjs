@@ -1,11 +1,10 @@
-import { FC } from 'react'
 import BbNavbar from '@/components/atoms/BbNavbar'
 
 type Props = {
-  children: JSX.Element
+  children: React.ReactNode
 }
 
-const Layout: FC<Props> = ({ children }) => (
+const Layout = ({ children }: Props) => (
   <>
     <header>
       <BbNavbar />

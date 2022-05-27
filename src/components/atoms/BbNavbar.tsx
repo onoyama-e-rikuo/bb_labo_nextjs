@@ -1,13 +1,8 @@
 import { CalendarIcon, MenuAlt3Icon } from '@heroicons/react/outline'
-import { FC } from 'react'
 import BbLinkIcon from './BbLinkIcon'
 import Logo from 'public/images/logo.svg'
 
-type Props = {
-  className?: string
-}
-
-const BbNavbar: FC<Props> = () => {
+const BbNavbar = () => {
   const calendarIcon = <CalendarIcon />
   const menuIcon = <MenuAlt3Icon />
 
