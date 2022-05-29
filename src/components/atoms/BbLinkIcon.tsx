@@ -6,7 +6,7 @@ type Props = {
 
 const BbLinkIcon = ({ className, href, icon }: Props) => (
   <a href={href} target='_blank' className={className} rel='noreferrer'>
-    <div className='h-8 w-8'>{icon}</div>
+    <div className='h-7 w-7'>{icon}</div>
   </a>
 )
 
