@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import BbLinkIcon from './BbLinkIcon'
 import Logo from 'public/images/logo_white.svg'
 
-// 追加　画面がNavbar分スクロールされたら背景色を黒に変える
 const BbNavbar = () => {
   const calendarIcon = <CalendarIcon />
   const menuIcon = <MenuAlt3Icon />
