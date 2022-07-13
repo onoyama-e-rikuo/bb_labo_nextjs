@@ -1,13 +1,9 @@
-import { MenuIcon } from '@/components/top/atoms/MenuIcon/MenuIcon'
-import { Title } from '@/components/top/atoms/Title/Title'
+import { NavigationBar } from '../molecules/NavigationBar'
 
-const TopPage: React.FC = () => {
+export const TopPage: React.FC = () => {
   return (
     <section>
-      <Title>BB LABO.</Title>
-      <MenuIcon />
+      <NavigationBar />
     </section>
   )
 }
-
-export default TopPage

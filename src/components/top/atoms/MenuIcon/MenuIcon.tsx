@@ -1,5 +1,6 @@
 import { css } from '@emotion/react'
 import { AiOutlineMenu } from 'react-icons/ai'
+
 type Props = React.ComponentPropsWithoutRef<'div'>
 
 const menu = css`
